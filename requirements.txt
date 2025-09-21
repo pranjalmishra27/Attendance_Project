@@ -1,0 +1,12 @@
+flask
+flask-cors
+opencv-python
+face-recognition
+numpy
+cvzone
+firebase-admin
+pandas
+torch
+torchvision
+Pillow
+scipy
