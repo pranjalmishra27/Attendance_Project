@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Face Attendance</title></head>
+<body>
+    <h2>Upload an Image for Attendance</h2>
+    <input type="file" id="fileInput">
+    <button onclick="uploadImage()">Submit</button>
+    <p id="result"></p>
+
+    <script>
+        function uploadImage() {
+            let file = document.getElementById("fileInput").files[0];
+            let formData = new FormData();
+            formData.append("image", file);
+
+            fetch("/detect", { method: "POST", body: formData })
+                .then(response => response.json())
+                .then(data => document.getElementById("result").innerText = data.message);
+        }
+    </script>
+</body>
+</html>
