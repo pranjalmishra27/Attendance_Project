@@ -8,6 +8,7 @@ It aims to record student/employee attendance automatically, detect spoofing att
 
 ## 📂 Project Structure
 Attendance_Project/
+
 ├── Images/                     # Sample images  
 ├── Resources/                  # Required resources  
 ├── templates/                  # Flask HTML templates  
