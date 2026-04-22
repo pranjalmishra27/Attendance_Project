@@ -37,3 +37,19 @@ The system uses a **custom curated dataset**, integrates a **Flask API**, and st
 ---
 
 ## 📂 Project Structure
+Attendance_Project
+│
+├── Images/ # Sample images
+├── Resources/ # Required resources
+├── templates/ # Flask HTML templates
+├── trained_models/ # Pre-trained models and encodings
+├── FlaskAPI.py # Flask API server
+├── main.py # Main script to run attendance
+├── database.py # Database-related operations
+├── encodeGenerator.py # Face encoding generator
+├── with_antiSpoofing.py # Anti-spoofing module
+├── serviceAccountKey.json # External service credentials (if used)
+├── updated_students.json # Student information
+├── dataLogger.xlsx # Attendance logs (Excel)
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation
