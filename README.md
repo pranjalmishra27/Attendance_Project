@@ -1,68 +1,154 @@
-# 🚀 Smart Attendance System (Face Recognition + Anti-Spoofing)
+# 🎯 AI-Powered Face Attendance System
 
-## 🎯 Overview
-This project is an **Automated Attendance Management System** built using **Computer Vision** and **Machine Learning**. It leverages **face recognition with anti-spoofing** to securely mark attendance, eliminating manual processes and reducing errors.
-
-The system uses a **custom curated dataset**, integrates a **Flask API**, and stores attendance records in a database for real-time access and analysis.
+Real-time AI-powered attendance management system using **Face Recognition**, **Computer Vision**, and **Deep Learning** for automated and secure attendance tracking.
 
 ---
 
-## 📊 Key Achievements
-- ✅ Achieved **F1-score of 0.97** for face recognition  
-- 🔒 Implemented **ResNet-based anti-spoofing (99% accuracy)** to block photo/video attacks  
-- ⚡ Reduced manual attendance time by **~90% (from minutes to seconds)**  
-- 📉 Eliminated proxy attendance and improved system reliability  
+# 🚀 Overview
+
+This project automates traditional attendance systems using advanced facial recognition and anti-spoofing techniques. The system detects, recognizes, and verifies faces in real-time while preventing fake image/video-based attendance fraud.
+
+The project focuses on:
+
+- Real-time facial recognition
+- Automated attendance logging
+- Anti-spoofing security mechanisms
+- Fast and optimized inference pipelines
+- High-accuracy AI-powered authentication
 
 ---
 
-## ✨ Features
-- 👤 **Face Recognition** for automated attendance marking  
-- 🛡️ **Anti-Spoofing System** to detect fake faces (photos/videos)  
-- 🌐 **Flask API** for managing attendance records  
-- 🗄️ **Database Integration (Firebase supported)**  
-- 📄 **Excel Logging System** for attendance tracking  
-- 💻 **Web Interface (Flask Templates)** for user interaction  
-- ⚡ **Real-time Processing** for fast and efficient performance  
+# 🎯 Key Features
+
+- 🎥 Real-time face recognition system
+- 🧠 AI-powered attendance automation
+- 🔒 Anti-spoofing protection against fake attendance
+- ⚡ Low-latency inference pipeline
+- 📊 Automated attendance tracking & logging
+- 🖥️ Real-time webcam integration
+- 📁 Attendance data management system
 
 ---
 
-## 🧠 Tech Stack
-- **Language:** Python  
-- **Libraries:** OpenCV, NumPy, Pandas, Scikit-learn  
-- **Models:** MobileNetV2, ResNet18  
-- **Framework:** Flask  
-- **Database:** Firebase / JSON-based storage  
-- **Tools:** Excel logging, custom dataset preprocessing  
+# 📈 Model Performance
+
+| Metric | Value | Description |
+|---|---|---|
+| F1-Score | **0.97** | High recognition performance |
+| Attendance Time Reduction | **90%** | Automated attendance workflow |
+| Anti-Spoofing Accuracy | **99%** | Protection against fake image/video attacks |
+| Inference Type | **Real-Time** | Live webcam-based attendance |
+| Models Used | **MobileNetV2 + ResNet18** | Lightweight deep learning architecture |
 
 ---
 
-## 📂 Project Structure
-Attendance_Project
+# 🧠 Tech Stack
 
-├── Images/ # Sample images
+## Languages & Libraries
 
-├── Resources/ # Required resources
+- Python
+- NumPy
+- Pandas
+- OpenCV
 
-├── templates/ # Flask HTML templates
+## AI / Deep Learning
 
-├── trained_models/ # Pre-trained models and encodings
+- MobileNetV2
+- ResNet18
+- Face Recognition
+- Anti-Spoofing Detection
+- Computer Vision
+- Deep Learning
 
-├── FlaskAPI.py # Flask API server
+## Tools & Frameworks
 
-├── main.py # Main script to run attendance
+- Scikit-learn
+- VS Code
+- Git
+- Anaconda
 
-├── database.py # Database-related operations
+---
 
-├── encodeGenerator.py # Face encoding generator
+# 🏗️ System Workflow
 
-├── with_antiSpoofing.py # Anti-spoofing module
+```text
+Webcam Input
+      ↓
+Face Detection
+      ↓
+Face Recognition
+      ↓
+Anti-Spoofing Verification
+      ↓
+Attendance Logging
+      ↓
+Database/CSV Update
+```
 
-├── serviceAccountKey.json # External service credentials (if used)
+---
 
-├── updated_students.json # Student information
+# 📂 Project Structure
 
-├── dataLogger.xlsx # Attendance logs (Excel)
+```bash
+Attendance_Project/
+│
+├── dataset/
+├── training/
+├── models/
+├── attendance_logs/
+├── inference/
+├── utils/
+├── requirements.txt
+└── README.md
+```
 
-├── requirements.txt # Required Python packages
+---
 
-└── README.md # Project documentation
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/pranjalmishra27/Attendance_Project.git
+cd Attendance_Project
+```
+
+## Create Environment
+
+```bash
+conda create -n attendance python=3.10
+conda activate attendance
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+
+# 📸 Results
+
+The system successfully performs real-time face recognition with high accuracy and strong anti-spoofing security mechanisms.
+
+### Example Capabilities
+
+- Real-time attendance marking
+- Face authentication
+- Fake face detection
+- Automated attendance logs
+- Secure attendance management
+
+---
+
+# 🏭 Real-World Applications
+
+- Smart Classroom Attendance
+- Office Attendance Systems
+- Employee Verification
+- Secure Authentication Systems
+- AI-Based Access Control
+
+---
